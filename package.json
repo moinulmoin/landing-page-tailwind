@@ -1,0 +1,54 @@
+{
+	"name": "single-section",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@craco/craco": "^6.1.2",
+		"@heroicons/react": "^1.0.1",
+		"@testing-library/jest-dom": "*",
+		"@testing-library/react": "*",
+		"@testing-library/user-event": "*",
+		"react": "*",
+		"react-dom": "*",
+		"react-scripts": "*"
+	},
+	"scripts": {
+		"start": "craco start",
+		"build": "craco build",
+		"test": "craco test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"autoprefixer": "^9",
+		"babel-eslint": "*",
+		"eslint": "*",
+		"eslint-config-airbnb": "*",
+		"eslint-config-prettier": "*",
+		"eslint-plugin-import": "*",
+		"eslint-plugin-jsx-a11y": "*",
+		"eslint-plugin-prettier": "*",
+		"eslint-plugin-react": "*",
+		"eslint-plugin-react-hooks": "*",
+		"postcss": "^7",
+		"prettier": "*",
+		"tailwindcss": "npm:@tailwindcss/postcss7-compat"
+	}
+}
