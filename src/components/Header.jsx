@@ -25,7 +25,7 @@ function Header() {
                 </div>
             </nav>
             {isShowing && (
-                <div className="w-full bg-blue-500 text-white mt-3 px-6 py-3 text-center text-xl space-y-3 rounded">
+                <div className="w-full bg-gray-900 text-white my-3 px-6 py-3 text-center text-xl space-y-3 rounded">
                     <p className="hover:cursor-pointer hover:text-gray-300">Home</p>
                     <p className="hover:cursor-pointer hover:text-gray-300">About</p>
                     <p className="hover:cursor-pointer hover:text-gray-300">Contact</p>
